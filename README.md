@@ -31,7 +31,7 @@ Download all data in the github repo, replace the BASE_PATH in the notebook with
 ## Citation
 Please use the following citation when using the data, methods or results of this work:
 
-Xiao, T. & You, F. (2026). Localized and seasonal freshwater stress amplification from U.S. AI data center growth under climate–socioeconomic pathways. Submitted to Nature Sustainability.
+Xiao, T. & You, F. (2026). Localized and seasonal freshwater stress amplification from U.S. AI data center growth under climate–socioeconomic pathways. Submitted to Nature Water.
 
 ## License
 This project is covered under the **Apache 2.0 License**.
