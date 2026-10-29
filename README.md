@@ -14,6 +14,7 @@ The above packages can be conveniently downloaded through open-source library on
 
 ## Codes
 - **Water Stress Calculation.ipynb**: This notebook provides a computation demonstration of the project water-stress workflow. It loads the data resources, simulates monthly freshwater stress for each HUC8 under three SSP–RCP pathways and four AI cases, and prints selected national and HUC8-level results.
+- **AI_DC_benchmark_model.py**: This code file provides the PUE and WUE calculation models for AI data centers under the different cooling designs.
 
 ## Data
 - **AI_Power_Water_Usage xlsx files**: Electrciity consumption and water withdrawal data of AI data centers in each HUC8 subbasin.
