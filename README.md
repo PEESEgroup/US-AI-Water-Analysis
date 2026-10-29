@@ -31,7 +31,7 @@ Download all data in the github repo, replace the BASE_PATH in the notebook with
 ## Citation
 Please use the following citation when using the data, methods or results of this work:
 
-Xiao, T. & You, F. (2026). AI data center growth amplifies localized and seasonal freshwater stress across U.S. subbasins. Submitted to Nature Water.
+Xiao, T. & You, F. (2026). Basin hydrology and seasonal demand shape freshwater-stress amplification from AI data centers. Submitted to Nature Geoscience.
 
 ## License
 This project is covered under the **Apache 2.0 License**.
