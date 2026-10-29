@@ -13,9 +13,9 @@ To run the codes in this repository, the following Python and core packages must
 The above packages can be conveniently downloaded through open-source library on a normal computer. There is no specific computing resource requirements to run the main codes, which can be runned on normal computer within a few seconds.
 
 ## Codes
-**Water Stress Calculation.ipynb**: This notebook provides a computation demonstration of the project water-stress workflow. It loads the data resources, simulates monthly freshwater stress for each HUC8 under three SSP–RCP pathways and four AI cases, and prints selected national and HUC8-level results.
+- **Water Stress Calculation.ipynb**: This notebook provides a computation demonstration of the project water-stress workflow. It loads the data resources, simulates monthly freshwater stress for each HUC8 under three SSP–RCP pathways and four AI cases, and prints selected national and HUC8-level results.
 
-**AI_DC_benchmark_model.py**: This code file provides the PUE and WUE calculation models for AI data centers under the different cooling designs.
+- **AI_DC_benchmark_model.py**: This code file provides the PUE and WUE calculation models for AI data centers under the different cooling designs.
 
 ## Data
 - **AI_Power_Water_Usage xlsx files**: Electrciity consumption and water withdrawal data of AI data centers in each HUC8 subbasin.
@@ -28,8 +28,9 @@ The above packages can be conveniently downloaded through open-source library on
 - **Waste Heat Reuse folder**: AI_Power_Water_Usage xlsx files for the waste heat reuse case.
 
 ## Running the code
-- **Water Stress Calculation.ipynb**: Download all data in the github repo, replace the BASE_PATH in the notebook with the data save path, and run the notebook code with listed packages.
-- **AI_DC_benchmark_model.py**:
+**Water Stress Calculation.ipynb**: Download all data in the github repo, replace the BASE_PATH in the notebook with the data save path, and run the notebook code with listed packages.
+
+**AI_DC_benchmark_model.py**:
 Install the dependencies: pip install numpy pandas scipy CoolProp scikit-learn
 
 Place AI_DC_benchmark_model.py alongside your script. The module also requires the trained regression models COP_2.pkl, COP_DX.pkl, and COP_AC.pkl. Before importing, update the three hard-coded pickle.load(...) paths near the top of the module to point to those files on your computer. The .pkl files must be compatible with your Python/scikit-learn environment; only load trusted pickle files.
