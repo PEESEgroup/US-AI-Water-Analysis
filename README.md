@@ -27,7 +27,16 @@ The above packages can be conveniently downloaded through open-source library on
 - **Waste Heat Reuse folder**: AI_Power_Water_Usage xlsx files for the waste heat reuse case.
 
 ## Running the code
-Download all data in the github repo, replace the BASE_PATH in the notebook with the data save path, and run the notebook code with listed packages.
+- **Water Stress Calculation.ipynb**: Download all data in the github repo, replace the BASE_PATH in the notebook with the data save path, and run the notebook code with listed packages.
+- **AI_DC_benchmark_model.py**:
+Install the dependencies:
+pip install numpy pandas scipy CoolProp scikit-learn
+Place AI_DC_benchmark_model.py alongside your script. The module also requires the trained regression models COP_2.pkl, COP_DX.pkl, and COP_AC.pkl. Before importing, update the three hard-coded pickle.load(...) paths near the top of the module to point to those files on your computer. The .pkl files must be compatible with your Python/scikit-learn environment; only load trusted pickle files.
+Usage Example
+from AI_DC_benchmark_model import (
+    PUE_WUE_Immersion_DryCooler_Watereconomizer,
+)
+output = PUE_WUE_Immersion_DryCooler_Watereconomizer(params)
 
 ## Citation
 Please use the following citation when using the data, methods or results of this work:
